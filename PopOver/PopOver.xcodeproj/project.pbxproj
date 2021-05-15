@@ -21,6 +21,9 @@
 		732DE2F2263E761A00139BEE /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732DE2F1263E761A00139BEE /* UITableViewCellExtension.swift */; };
 		732DE2F7263E764900139BEE /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732DE2F6263E764900139BEE /* PopoverViewController.swift */; };
 		732DE2FC263E76D800139BEE /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732DE2FB263E76D800139BEE /* UIViewControllerExtension.swift */; };
+		732DE301263EBB3700139BEE /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732DE300263EBB3700139BEE /* ViewControllerTests.swift */; };
+		73FA4DC5264FC84800DE30F8 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FA4DC4264FC84800DE30F8 /* Storyboards.swift */; };
+		73FA4DCD264FD92A00DE30F8 /* PopOverViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FA4DCC264FD92A00DE30F8 /* PopOverViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		732DE2F1263E761A00139BEE /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
 		732DE2F6263E764900139BEE /* PopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
 		732DE2FB263E76D800139BEE /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		732DE300263EBB3700139BEE /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		73FA4DC4264FC84800DE30F8 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		73FA4DCC264FD92A00DE30F8 /* PopOverViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +130,7 @@
 				732DE2F1263E761A00139BEE /* UITableViewCellExtension.swift */,
 				732DE2F6263E764900139BEE /* PopoverViewController.swift */,
 				732DE2FB263E76D800139BEE /* UIViewControllerExtension.swift */,
+				73FA4DC4264FC84800DE30F8 /* Storyboards.swift */,
 			);
 			path = PopOver;
 			sourceTree = "<group>";
@@ -133,6 +140,8 @@
 			children = (
 				73050C19263D51CC001E44B3 /* PopOverTests.swift */,
 				73050C1B263D51CC001E44B3 /* Info.plist */,
+				732DE300263EBB3700139BEE /* ViewControllerTests.swift */,
+				73FA4DCC264FD92A00DE30F8 /* PopOverViewControllerTests.swift */,
 			);
 			path = PopOverTests;
 			sourceTree = "<group>";
@@ -282,6 +291,7 @@
 				73050C3F263D8169001E44B3 /* PopoverModel.swift in Sources */,
 				732DE2ED263E74F400139BEE /* PopoverItem.swift in Sources */,
 				73050C07263D51CB001E44B3 /* ViewController.swift in Sources */,
+				73FA4DC5264FC84800DE30F8 /* Storyboards.swift in Sources */,
 				732DE2F2263E761A00139BEE /* UITableViewCellExtension.swift in Sources */,
 				73050C03263D51CB001E44B3 /* AppDelegate.swift in Sources */,
 				73050C05263D51CB001E44B3 /* SceneDelegate.swift in Sources */,
@@ -292,6 +302,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73FA4DCD264FD92A00DE30F8 /* PopOverViewControllerTests.swift in Sources */,
+				732DE301263EBB3700139BEE /* ViewControllerTests.swift in Sources */,
 				73050C1A263D51CC001E44B3 /* PopOverTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

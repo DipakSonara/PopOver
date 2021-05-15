@@ -49,6 +49,7 @@ class PopoverViewController: UIViewController {
         tableView?.dataSource = self
         tableView?.delegate = self
         tableView?.register(UITableViewCell.self, forCellReuseIdentifier: "UITableViewCell")
+        tableView?.accessibilityIdentifier = "PopOverTableViewIdentifier"
     }
     
     func calculateAndSetPreferredContentSize() {
@@ -83,6 +84,7 @@ extension PopoverViewController:UITableViewDataSource, UITableViewDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: "UITableViewCell", for: indexPath)
         let item = items[indexPath.row]
         cell.configure(with:item)
+        cell.accessibilityIdentifier = "PopOverTableViewCell"
         return cell
     }
     
